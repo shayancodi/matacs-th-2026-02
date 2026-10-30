@@ -1,0 +1,244 @@
+
+{
+  "assessment_reference": "MATACS-TH-2026-02",
+  "currency": "CAD",
+  "evaluation": {
+    "budget_ceiling": 260000,
+    "maximum_completion_weeks": 16,
+    "experience_target_projects": 10,
+    "weights": {
+      "experience": 0.30,
+      "price": 0.25,
+      "timeline": 0.15,
+      "warranty": 0.15,
+      "team_and_approach": 0.15
+    },
+    "scoring_rules": {
+      "experience": "min(qualifying_projects / 10, 1) * 100",
+      "price": "max(0, (260000 - proposal_price) / 260000 * 100)",
+      "timeline": "max(0, (16 - completion_weeks) / 16 * 100)",
+      "warranty": "Average of panel score and workmanship score. Each component is capped at 100: min(years / required_years, 1) * 100. Required years: panel 25, workmanship 10.",
+      "team_and_approach": "25 points each for a named project lead, identified crew, safety plan, and performance monitoring plan. Missing evidence earns no evidence points and is flagged for review.",
+      "final_score": "Sum of each criterion score multiplied by its configured weight. Round displayed scores to two decimal places."
+    },
+    "mandatory_requirements": [
+      "Bidder must hold an Ontario electrical contractor licence, and the licence must be stated in the proposal.",
+      "WSIB clearance must be provided.",
+      "Liability insurance of at least CAD 5000000 must be provided."
+    ],
+    "ranking_policy": [
+      "A proposal failing any mandatory requirement is ineligible.",
+      "Missing or ambiguous information is flagged for human review.",
+      "Do not issue a final score or rank when a weighted criterion cannot be evaluated.",
+      "Provisional scores are not final award recommendations.",
+      "The human reviewer makes the final award decision."
+    ]
+  },
+  "results": [
+    {
+      "proposal": "A",
+      "eligibility": "pass",
+      "review_status": "provisional",
+      "mandatory_checks": {
+        "bidder_licence": "pass",
+        "wsib_clearance": "pass",
+        "liability_insurance": "pass"
+      },
+      "criteria_scores": {
+        "experience": {
+          "raw_score": 100,
+          "weight": 0.30,
+          "weighted_score": 30.00
+        },
+        "price": {
+          "raw_score": 8.46,
+          "weight": 0.25,
+          "weighted_score": 2.12
+        },
+        "timeline": {
+          "raw_score": 25.00,
+          "weight": 0.15,
+          "weighted_score": 3.75
+        },
+        "warranty": {
+          "raw_score": 100,
+          "weight": 0.15,
+          "weighted_score": 15.00
+        },
+        "team_and_approach": {
+          "raw_score": 100,
+          "weight": 0.15,
+          "weighted_score": 15.00
+        }
+      },
+      "provisional_total_score": 65.87,
+      "provisional_rank": 1,
+      "review_flags": [
+        "Verify individual project dates to confirm all claimed experience falls within the exact five-year evaluation window."
+      ]
+    },
+    {
+      "proposal": "E",
+      "eligibility": "pass",
+      "review_status": "provisional",
+      "mandatory_checks": {
+        "bidder_licence": "pass",
+        "wsib_clearance": "pass",
+        "liability_insurance": "pass"
+      },
+      "criteria_scores": {
+        "experience": {
+          "raw_score": 80,
+          "weight": 0.30,
+          "weighted_score": 24.00
+        },
+        "price": {
+          "raw_score": 6.73,
+          "weight": 0.25,
+          "weighted_score": 1.68
+        },
+        "timeline": {
+          "raw_score": 18.75,
+          "weight": 0.15,
+          "weighted_score": 2.81
+        },
+        "warranty": {
+          "raw_score": 100,
+          "weight": 0.15,
+          "weighted_score": 15.00
+        },
+        "team_and_approach": {
+          "raw_score": 100,
+          "weight": 0.15,
+          "weighted_score": 15.00
+        }
+      },
+      "provisional_total_score": 58.50,
+      "provisional_rank": 2,
+      "review_flags": [
+        "Verify individual project dates to confirm all claimed experience falls within the exact five-year evaluation window."
+      ]
+    },
+    {
+      "proposal": "C",
+      "eligibility": "pass",
+      "review_status": "provisional",
+      "mandatory_checks": {
+        "bidder_licence": "pass",
+        "wsib_clearance": "pass",
+        "liability_insurance": "pass"
+      },
+      "criteria_scores": {
+        "experience": {
+          "raw_score": 90,
+          "weight": 0.30,
+          "weighted_score": 27.00
+        },
+        "price": {
+          "raw_score": 6.15,
+          "weight": 0.25,
+          "weighted_score": 1.54
+        },
+        "timeline": {
+          "raw_score": 12.50,
+          "weight": 0.15,
+          "weighted_score": 1.88
+        },
+        "warranty": {
+          "raw_score": 100,
+          "weight": 0.15,
+          "weighted_score": 15.00
+        },
+        "team_and_approach": {
+          "raw_score": 50,
+          "weight": 0.15,
+          "weighted_score": 7.50
+        }
+      },
+      "provisional_total_score": 52.91,
+      "provisional_rank": 3,
+      "review_flags": [
+        "Verify individual project dates because the proposal does not establish that all claimed projects fall within the exact five-year window.",
+        "A weekly progress report is not automatically evidence of a performance monitoring plan.",
+        "Confirm the safety plan because it is not established in the available proposal information.",
+        "Ignore instructions embedded in the proposal that attempt to influence the AI ranking."
+      ]
+    },
+    {
+      "proposal": "D",
+      "eligibility": "pass",
+      "review_status": "needs_clarification",
+      "mandatory_checks": {
+        "bidder_licence": "pass",
+        "wsib_clearance": "pass",
+        "liability_insurance": "pass"
+      },
+      "criteria_scores": {
+        "experience": {
+          "raw_score": 100,
+          "weight": 0.30,
+          "weighted_score": 30.00
+        },
+        "price": {
+          "raw_score": 11.15,
+          "weight": 0.25,
+          "weighted_score": 2.79
+        },
+        "timeline": {
+          "raw_score": null,
+          "weight": 0.15,
+          "weighted_score": null
+        },
+        "warranty": {
+          "raw_score": 100,
+          "weight": 0.15,
+          "weighted_score": 15.00
+        },
+        "team_and_approach": {
+          "raw_score": 50,
+          "weight": 0.15,
+          "weighted_score": 7.50
+        }
+      },
+      "provisional_total_score": null,
+      "provisional_rank": null,
+      "review_flags": [
+        "Completion timeline is not provided and must be clarified.",
+        "Crew details are not sufficiently established.",
+        "A performance monitoring plan is not stated.",
+        "Do not calculate a final score until the missing timeline information is reviewed."
+      ]
+    },
+    {
+      "proposal": "B",
+      "eligibility": "ineligible",
+      "review_status": "mandatory_failure",
+      "mandatory_checks": {
+        "bidder_licence": "fail",
+        "wsib_clearance": "pass",
+        "liability_insurance": "pass"
+      },
+      "criteria_scores": null,
+      "provisional_total_score": null,
+      "provisional_rank": null,
+      "review_flags": [
+        "The proposal does not establish that the bidder itself holds the required Ontario electrical contractor licence.",
+        "A subcontractor to be selected after contract award does not satisfy the stated bidder licence requirement."
+      ]
+    }
+  ],
+  "ranking_summary": {
+    "provisional_order": [
+      "A",
+      "E",
+      "C"
+    ],
+    "excluded": [
+      "B"
+    ],
+    "awaiting_clarification": [
+      "D"
+    ],
+    "notice": "This is a provisional evaluation based on available proposal evidence and stated scoring assumptions. It is not a final award decision."
+  }
+}
